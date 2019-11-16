@@ -1,0 +1,345 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+body {
+background-color: whitesmoke;
+}
+
+
+header {
+  background: rgb(0,43,101);
+  background: linear-gradient(130deg, rgba(0,43,101,1) 0%, rgba(0,104,208,1) 100%);
+  display:block;
+  top:0;
+  height:80px;
+  box-shadow: 0px 2px 15px grey;
+}
+
+header h1 {
+  margin: 0;
+  color:white;
+  padding: 20px;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 24px;
+}
+
+.movies {
+
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+}
+
+.movieflex {
+  width: 90vw;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.movietitlebox {
+height: 60px;
+  background: rgb(0,43,101);
+  background: linear-gradient(130deg, rgba(0,43,101,1) 0%, rgba(0,104,208,1) 100%);
+}
+
+.movietitle {
+color: white;
+  padding: 15px;
+
+}
+
+.assignImg {
+  width: 100%;
+}
+
+.movielink {
+  text-decoration: none;
+}
+
+.movieimg {
+  width: 100%;
+}
+
+.themovieimg {
+  width: 100%;
+}
+
+#show {
+  display: none;
+}
+
+.desktop {
+  display: none;
+}
+.backtext {
+  display: none;
+}
+
+.themoviesection {
+  width: 90vw;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.themovietitle {
+  color: black;
+  margin-top: 15px;
+}
+
+button, a.button {
+  padding: 10px 15px 10px 15px;
+  background: rgb(0,43,101);
+  background: linear-gradient(130deg, rgba(0,43,101,1) 0%, rgba(0,104,208,1) 100%);
+  border-radius: 0px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+.button {
+  display: block;
+  text-align: center;
+}
+
+
+.backbutton {
+  float: left;
+  position: absolute;
+  padding: 20px 10px 20px 15px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+}
+
+
+header a img {
+  width: 20px;
+}
+
+
+.exbut {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.h4ex {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.subh4ex {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.christ {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+.christbox {
+  display: block;
+  margin:auto;
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px 15px 10px 15px;
+  background: rgb(0,43,101);
+  background: linear-gradient(130deg, rgba(0,43,101,1) 0%, rgba(0,104,208,1) 100%);
+  border-radius: 0px;
+  color: white;
+}
+
+#frick {
+  display: none;
+}
+
+.calc {
+margin-top: 20px;
+  text-align: center;
+}
+
+.calc input {
+  padding: 10px;
+margin-top: 10px;
+  border: thin rgb(0,43,101) solid;
+}
+
+.calc button {
+  width: 100px;
+}
+
+
+#rating {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+#imdb {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 600px) {
+
+  body {
+    /*background-color: darkgoldenrod; */
+    /*background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/10/52/58/35/6/700_FO105258356_6b26fe73f3d8c7f99f25b287c24e44e5.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/stickers-cute-watercolor-whales-seamless-pattern-vector-repeating-background.jpg.jpg");*/
+
+  }
+
+  .movies {
+    width: 400px;
+    margin: 40px 30px 15px 30px;
+  }
+
+  .movietitlebox {
+    background: rgb(0,43,101);
+    background: linear-gradient(130deg, rgba(0,43,101,1) 0%, rgba(0,104,208,1) 100%);
+  }
+
+  .backtext {
+    display: block;
+  }
+
+  .movies:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+  }
+
+  .backbutton {
+    padding: 20px 10px 20px 25px;
+  }
+
+  header h1 {
+    padding-top: 25px;
+  }
+
+  .movietitlebox {
+    height: 70px;
+  }
+
+  .movietitle {
+    padding: 20px;
+  }
+
+  .backtext {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  /*MOVIE PAGE*/
+
+  .themoviesection {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .themoviesection a {
+    cursor:pointer;
+  }
+
+  .themovieimg {
+    width: 40%;
+    min-width: 361px;
+  }
+
+  .pagediv {
+    padding: 30px;
+    width: 60%;
+  }
+
+  .themovietitle {
+    font-size: 40px;
+  }
+
+  .pagediv p {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .themovietitle {
+    margin-bottom: 25px;
+  }
+
+  #show {
+    display: none;
+  }
+
+  .desktop {
+display: block;
+  }
+
+  .button {
+    display: none;
+    margin-top: 30px;
+  }
+
+
+
+
+
+
+}
+
+
+@media (max-width:1020px) and (min-width:600px) {
+
+.pagediv {
+  display: block;
+  width: 90%;
+}
+
+  .themovieimg {
+    display: block;
+    margin: auto;
+    width: 90%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
