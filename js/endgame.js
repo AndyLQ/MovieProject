@@ -23,7 +23,7 @@ const movies = [
 //Find out how many titles it need to input
 let firstmovie = document.getElementsByClassName("titlehere");
 
-const url = "http://www.omdbapi.com/?t=" + movies[3].movieTitle + "&apikey=907e8f2a";
+const url = "https://www.omdbapi.com/?t=" + movies[3].movieTitle + "&apikey=907e8f2a";
 
 fetch(url)
 
