@@ -141,8 +141,8 @@ header a img {
 .exbut {
   display: block;
   margin: auto;
-  width: 500px;
-  height: 50px;
+  width: 100vw;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -308,8 +308,8 @@ display: block;
 
 
 .exbut {
-  width:100vw;
-  height:auto;
+  width:500px;
+  height:50px;
 }
 
 
