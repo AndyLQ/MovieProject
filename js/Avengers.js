@@ -45,6 +45,23 @@ fetch(url)
     rat.appendChild(rating);
 
 
+    //Age of the movie
+    const age = document.getElementById("age");
+    let MAge = movie.Year;
+
+    let today = new Date();
+    let date = today.getFullYear();
+    console.log(date);
+    console.log(MAge);
+
+
+      let theAge = date - MAge ;
+
+    let MovieAge = document.createTextNode("The movie is " + theAge + " years old");
+
+    age.appendChild(MovieAge);
+
+
     //FORLOOP for the 2 titles
     for (let i = 0; i < firstmovie.length; i++) {
 
