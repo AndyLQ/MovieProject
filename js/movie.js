@@ -35,7 +35,7 @@ console.log(movies);
 for (var i = 0; i < movies.length; i++) {
 
 
-  var url = "http://www.omdbapi.com/?t=" + movies[i].movieTitle + "&apikey=907e8f2a";
+  var url = "https://www.omdbapi.com/?t=" + movies[i].movieTitle + "&apikey=907e8f2a";
 
   //define container by finding the "i" of classname "movietitlebox"
   let container = document.getElementsByClassName("movietitlebox")[i];
