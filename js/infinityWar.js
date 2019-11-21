@@ -55,7 +55,7 @@ fetch(url)
     console.log(MAge);
 
 
-    let theAge = date - MAge ;
+    let theAge = date - MAge;
 
     let MovieAge = document.createTextNode("The movie is " + theAge + " years old");
 
@@ -82,7 +82,6 @@ fetch(url)
       //put h1 in the container
       container.appendChild(h1);
     }
-
 
 
   });
